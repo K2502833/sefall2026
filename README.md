@@ -15,7 +15,30 @@ A GM ( game manager) leading Lasers and feelings session needs a software to hel
 Gm: A person managing a Lasers and Feelings session.
 
 # Requirements
-Requirements are written here as user stories and they are in priority order.
+Requirements are written here as user stories and they are in priority order and they are seperated in Sprint backlogs and in Product backlogs. 
 
-- As a player, I want to be able to throw a dice, because the result of the throw determine if I succeed in whatever I am trying to do.
+## Product backlog
+### Ordered
+None.
+
+### Not ordered or require elaboration
+- As a player, I want to to be able to choose a style and role for my character, so I can remember them.
+
+- As a player, I want the software to save my information (number, name, style and role), so I can use them in multiple playing sessions.
+
+- As a player, I want to be able to set my number, so I can compare it with the result of my dice throw.
+
+- As a GM, I want to be able to throw a dice, so I can create a random adventure.
+
 - As a GM, I want to be able to use the software in web browser, because web browsers are easy to use.
+
+
+
+
+
+## Sprint 1 Backlog
+- (Not started) As a GM, I want to be able to use the software in a modern web browser, because they are easy to use and easily available.
+
+- (Not started) As a player, I want to be able to throw a dice, because the result of the throw determine if I succeed in whatever I am trying to do.
+
+- (Not started) As a player, I want to be able to give my character a name, because I want to immersed into the game.
