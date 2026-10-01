@@ -40,7 +40,7 @@ None.
 ## Sprint 1 Backlog
 - (Done) As a GM, I want to be able to use the software in a modern web browser, because they are easy to use and easily available.
 
-- (In Progress) As a player, I want to be able to throw a dice, because the result of the throw determine if I succeed in whatever I am trying to do.
+- (Done) As a player, I want to be able to throw a dice, because the result of the throw determine if I succeed in whatever I am trying to do.
 
 - (Not started) As a player, I want to be able to give my character a name, because I want to immersed into the game.
 
