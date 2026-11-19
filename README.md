@@ -44,7 +44,7 @@ None.
 
 ## Sprint 2 Backlog
 
-- (Not started) As a player, I want to be able to give my character a name, because I want to immersed into the game.
+- (In progress) As a player, I want to be able to give my character a name, because I want to immersed into the game.
 
 - (Not started) As a player I want to be able to choose a style and role for my character, so I can remember them.
 
