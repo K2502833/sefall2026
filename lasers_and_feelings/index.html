@@ -6,18 +6,57 @@
     <title>Lasers and Feelings Tool</title>
 </head>
 <body>
+    <h1>Lasers &amp; Feelings</h1>
 
-    <button onClick="throwDice();" type="button">Throw</button>
-    <p>Result: </p>
-    <p id="result"></p>
+    <div>
+        <label for="characterName">Character Name:</label>
+        <input type="text" id="characterName" placeholder="e.g. Jim Powers">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="characterStyle">Style:</label>
+        <select id="characterStyle">
+            <option value="">-- Choose Style --</option>
+            <option value="Alien">Alien</option>
+            <option value="Android">Android</option>
+            <option value="Dangerous">Dangerous</option>
+            <option value="Heroic">Heroic</option>
+            <option value="Hot-Shot">Hot-Shot</option>
+            <option value="Intrepid">Intrepid</option>
+            <option value="Savvy">Savvy</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="characterRole">Role:</label>
+        <select id="characterRole">
+            <option value="">-- Choose Role --</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Envoy">Envoy</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Explorer">Explorer</option>
+            <option value="Pilot">Pilot</option>
+            <option value="Scientist">Scientist</option>
+            <option value="Soldier">Soldier</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <button onclick="throwDice();" type="button">Throw</button>
+        <p>Result: <span id="result"></span></p>
+    </div>
 
     <script>
         function throwDice() {
-        let result = Math.floor((Math.random() *6) + 1);
-        document.getElementById("result").innerText = result;
+            let result = Math.floor((Math.random() * 6) + 1);
+            document.getElementById("result").innerText = result;
         }
-    </script>
-
     </script>
 </body>
 </html>
